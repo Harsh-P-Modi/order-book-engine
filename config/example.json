@@ -1,0 +1,32 @@
+{
+  "traders": 8,
+  "orders_per_trader": 10000,
+  "queue_capacity": 65536,
+  "seed": 42,
+  "database": "amm-trades.db",
+  "commit_batch_size": 1000,
+  "workload": {
+    "market_order_probability": 0.7,
+    "buy_probability": 0.5,
+    "min_quantity": 1,
+    "max_quantity": 100,
+    "limit_price_band": 0.1
+  },
+  "symbols": [
+    {
+      "ticker": "SIM",
+      "intrinsic_price": 100.0,
+      "liquidity": 100000,
+      "max_deviation": 0.5,
+      "price_scale": 100
+    },
+    {
+      "ticker": "ALT",
+      "intrinsic_price": 25.0,
+      "liquidity": 50000,
+      "max_deviation": 0.35,
+      "price_scale": 100
+    }
+  ]
+}
+

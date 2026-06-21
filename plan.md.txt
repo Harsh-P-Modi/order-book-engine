@@ -1,0 +1,4 @@
+# Implemented project brief
+
+The original concept brief has been refined and implemented as the High-Concurrency AMM Trading Simulator. See `README.md` for the authoritative architecture, build, configuration, pricing, persistence, and execution documentation, and `docs/concurrency-invariants.md` for synchronization guarantees.
+
