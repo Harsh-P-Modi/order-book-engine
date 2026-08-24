@@ -22,7 +22,7 @@ Sanitizer options are `AMM_ENABLE_ASAN`, `AMM_ENABLE_UBSAN`, and `AMM_ENABLE_TSA
 ./build/amm-sim --help
 ```
 
-Settings use compiled  defaults, then the JSON file, then CLI overrides. Ctrl+C stops generation, drains accepted queue entries, expires resting limits, and commits the ledger.
+Settings use compiled defaults, then the JSON file, then CLI overrides. Ctrl+C stops generation, drains accepted queue entries, expires resting limits, and commits the ledger.
 
 ## Pricing and order behavior
 
