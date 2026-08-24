@@ -7,7 +7,7 @@
 #include <csignal>
 #include <cstdint>
 #include <iomanip>
-#include <iostream>
+#include <iostream> 
 #include <random>
 #include <thread>
 #include <vector>
@@ -80,6 +80,7 @@ void print_report(const amm::RunMetrics& m, const amm::SimulationConfig& config)
 } // namespace
 
 int main(int argc, char** argv) {
+    
     try {
         const auto cli = amm::load_configuration(argc, argv);
         if (cli.show_help) { amm::print_help(std::cout); return 0; }
